@@ -19,6 +19,10 @@ layout: default
 
 <br>
 
+{% include compare.md %}
+
+<br>
+
 {% include media.md %}
 
 <br>

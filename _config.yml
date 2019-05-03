@@ -1,3 +1,6 @@
 title: CRISPR-Cas9
-description: TODO add short descrition.
+description: >
+  A short overview of CRISPR-Cas9 and other gene editing methods,<br /> 
+  created as an assignment for the Computational Genomics (2018/2019) course <br /> 
+  at the School of Electrical Engineering.
 theme: jekyll-theme-cayman

@@ -15,12 +15,12 @@ Viruses attack cells by inserting their DNA into a cell and then using the cells
 
 {% include image.html url="https://opentextbc.ca/biology/wp-content/uploads/sites/96/2015/02/Figure_17_01_05.png" description="Influenza virus attacking a cell" %}
 
-Some bacterias, such as Streptococcus pyogenes, have evolved a mechanism for fighting off viruses - CRISPR. These organisms use CRISPR-derived RNA and various Cas proteins, including Cas9, to foil attacks by viruses and other foreign bodies. They do so primarily by chopping up and destroying the DNA of a foreign invader. The picture below ilustrates how CRISPR works.
+Some bacteria, such as Streptococcus pyogenes, have evolved a mechanism for fighting off viruses - CRISPR. These organisms use CRISPR-derived RNA and various Cas proteins, including Cas9, to foil attacks by viruses and other foreign bodies. They do so primarily by chopping up and destroying the DNA of a foreign invader. The picture below illustrates how CRISPR works.
 
 {% include image.html url="https://i1.wp.com/sitn.hms.harvard.edu/wp-content/uploads/2014/07/Pak-Fig-1.jpg" description="Virus attacks a bacteria cell" %}
 
 
-CRISPR is a specialized region of DNA with two distinct characteristics: the presence of **nucleotide repeats** (black, diamod shaped bits in the picture above) and **spacers** (squared, multi-colored parts). Repeated sequences of nucleotides (the building blocks of DNA) are distributed throughout a CRISPR region. Spacers are bits of DNA that are interspersed among these repeated sequences. When a virus attacks a bacteria, the bacteria analyzes the viral DNA and creates new spacer (basically a pattern of the viral DNA). The new spacer is added to the CRISPR region, which contains the spacers that were taken from viruses that previously attacked the organism. They serve as a bank of memories, which enables bacteria to recognize the viruses and fight off future attacks[^3]. The bacteria then formes separate CRISPR RNAs based on every spacer in the CRISPR region. The CRISPR RNA acts as a sentinal, and scans every DNA or RNA it comes across. If it finds a match, that means the particular generic material belongs to a virus, so it defends the bacteria by cutting the DNA strand and effectively destroying it. The Cas9 protein is the one that does the cutting. 
+CRISPR is a specialized region of DNA with two distinct characteristics: the presence of **nucleotide repeats** (black, diamond shaped bits in the picture above) and **spacers** (squared, multi-colored parts). Repeated sequences of nucleotides (the building blocks of DNA) are distributed throughout a CRISPR region. Spacers are bits of DNA that are interspersed among these repeated sequences. When a virus attacks a bacteria, the bacteria analyzes the viral DNA and creates new spacer (basically a pattern of the viral DNA). The new spacer is added to the CRISPR region, which contains the spacers that were taken from viruses that previously attacked the organism. They serve as a bank of memories, which enables bacteria to recognize the viruses and fight off future attacks[^3]. The bacteria then forms separate CRISPR RNAs based on every spacer in the CRISPR region. The CRISPR RNA acts as a sentinel, and scans every DNA or RNA it comes across. If it finds a match, that means the particular generic material belongs to a virus, so it defends the bacteria by cutting the DNA strand and effectively destroying it. The Cas9 protein is the one that does the cutting. 
 
 An interesting thing is that the bacterial DNA, with its CRISPR region, now has the viral target sequence (the inserted spacer). Does that mean that the CRISPR-Cas9 denfese mechanism will recognize the bacterial DNA as a threat and cut it? No, as there is a built-in safety mechanism, which ensures that Cas9 doesn't just cut anywhere in a genome. Short DNA sequences known as PAMs ("protospacer adjacent motifs") serve as tags and sit adjacent to the target DNA sequence. If the Cas9 complex doesn't see a PAM next to its target DNA sequence, it won't cut. This is one possible reason that Cas9 doesn't ever attack the CRISPR region in bacteria, according to a 2014 review published in Nature Biotechnology.[^3]
 
@@ -39,31 +39,20 @@ In 2012, two pivotal research papers were published in the journals Science and 
 "Operationally, you design a stretch of 20 (nucleotide) base pairs that match a gene that you want to edit," said George Church, a professor of genetics at Harvard Medical School. An RNA molecule complementary to those 20 base pairs is constructed. Church emphasized the importance of making sure that the nucleotide sequence is found only in the target gene and nowhere else in the genome. "Then the RNA plus the protein (Cas9) will cut — like a pair of scissors — the DNA at that site, and ideally nowhere else," he explained. [^3]
 
 
-{% include image.html url="https://www.genecopoeia.com/wp-content/uploads/2014/08/Pathways-for-repair-of-DSBs.jpg" description="Pathways for repring double-stranded breaks (DSBs) [^4]" %}
+{% include image.html url="https://www.genecopoeia.com/wp-content/uploads/2014/08/Pathways-for-repair-of-DSBs.jpg" description="Pathways for repairing double-stranded breaks (DSBs) [^4]" %}
 
-Once the DNA is cut, the cell's natural repair mechanisms kick in and work to introduce mutations or other changes to the genome. Two different processes can occure in order to fix the double-stranded break (DSB): **non-homologous end-joining (NHEJ)** or **homology-directed repair (HDR)**. NHEJ is an imprecise repair process and  involves gluing the two cuts back together. This method tends to introduce errors, as nucleotides are accidentally inserted or deleted, resulting in mutations, which could disrupt a gene. HDR is a precise repair process and is used mainly in editing the DNA sequence. With HDR, the break is fixed by filling in the gap with a sequence of nucleotides. In order to do so, the cell uses a short strand of DNA as a template. Scientists can supply the DNA template of their choosing, thereby writing-in any gene they want, or correcting a mutation.[^3] [^5]
+Once the DNA is cut, the cell's natural repair mechanisms kick in and work to introduce mutations or other changes to the genome. Two different processes can occur in order to fix the double-stranded break (DSB): **non-homologous end-joining (NHEJ)** or **homology-directed repair (HDR)**. NHEJ is an imprecise repair process and  involves gluing the two cuts back together. This method tends to introduce errors, as nucleotides are accidentally inserted or deleted, resulting in mutations, which could disrupt a gene. HDR is a precise repair process and is used mainly in editing the DNA sequence. With HDR, the break is fixed by filling in the gap with a sequence of nucleotides. In order to do so, the cell uses a short strand of DNA as a template. Scientists can supply the DNA template of their choosing, thereby writing-in any gene they want, or correcting a mutation.[^3] [^5]
 
 The vide below is an animation of the homology-directed repair (HDR) process.
 <iframe src="https://player.vimeo.com/video/106957770" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
-TODO mention the other applications of CRISPR from this video.
+The non-homologous end-joining (NHEJ) is illustrated in the video below, with a few other approaches:
+ - By disabling the cutting functionality and adding an enzyme, CRISPR can introduce specific, targeted mutations on a DNA base without cutting the DNA strand.
+ - Some researchers have been working on promoting gene transcription. They disabled the cutting functionality of Cas9, and adding transcriptional activators are added. Other researcher have been working on inactivating transcription.
+ - An interesting usage of CRISPR is adding flouresent proteins to it, which then enables us to visualize the 3D architecture of the genome.   
+
 <iframe  width="560" height="315" src="https://www.youtube.com/embed/4YKFw2KZA5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-## Comparison of gene editing methods
-
-The picture below shows the difference in the structure of ZFN (a), TALEN (b) and CRISPR (c).
-
-TODO add a small description.
-
-{% include image.html url="https://media.springernature.com/m685/nature-assets/nplants/2015/nplants201411/images_hires/nplants201411-f1.jpg" description="Different structures of the ZFN (a), TALEN (b) and CRISPR (c) systems. [^8]" %}
-
-The table below compares the three most widely used gene editing methods: CRISPR-Cas9, ZFN and TALEN.
-
-TODO add small description
-
-{% include image.html url="https://www.researchgate.net/profile/Zhiming_Cai2/publication/277580331/figure/tbl1/AS:391836117028864@1470432418016/Comparison-of-intrinsic-technical-performance-for-ZFN-TALEN-and-CRISPR-Cas9.png" description="Comparison of intrinsic technical performance for ZFN, TALEN and CRISPR-Cas9 [^9]" %}
 
 ## Usage and limitations
 
@@ -76,11 +65,11 @@ In 2013, the first reports of using CRISPR-Cas9 to edit human cells in an experi
 
 CRISPR technology has also been applied in the food and agricultural industries to vaccinate industrial cultures (for yogurt, for example) against viruses. It is also being used in crops to improve yield, drought tolerance and nutritional properties. Another potential application is to create **gene drives**. These are genetic systems, which increase the chances of a particular trait passing on from parent to offspring. Eventually, over the course of generations, the trait spreads through entire populations, according to the Wyss Institute. Gene drives can aid in controlling the spread of diseases such as malaria by enhancing sterility among the disease vector — female Anopheles gambiae mosquitoes — according to the 2016 Nature Biotechnology article. In addition, gene drives could also be used to eradicate invasive species and reverse pesticide and herbicide resistance, according to a 2014 article by Kenneth Oye and colleagues, published in the journal Science. 
 
-TODO add picture for CRISPR and red eyes in mosquitos, and how to pass the desired trait through generations.
+{% include image.html url="http://discovermagazine.com/~/media/Images/Issues/2015/may/mosquito7.jpg" description="Left: One copy of the altered gene is inherited, leading to a 50 percent chance of passing it on per generation. Right: By altering both chromosomes, gene drives ensure both copies of the altered gene are inherited, leading to a 100 percent chance of passing it on. [^10]" %}
 
 ### Drawbacks
 
-Even though it has a lot of positive ponts, CRISPR-Cas9 is not without its drawbacks.
+Even though it has a lot of positive points, CRISPR-Cas9 is not without its drawbacks.
 
 "I think the biggest limitation of CRISPR is it is not a hundred percent efficient," Church told Live Science. Moreover, the genome-editing efficiencies can vary. According to the 2014 Science article by Doudna and Charpentier, in a study conducted in rice, gene editing occurred in nearly 50 percent of the cells that received the Cas9-RNA complex. Whereas, other analyses have shown that depending on the target, editing efficiencies can reach as high as 80 percent or more. 
 
@@ -100,3 +89,6 @@ Other ethical concerns are more nuanced. Should we make changes that could funda
 [^5]: [Genome editing: the road of CRISPR/Cas9 from bench to clinic, by Ayman Eid and Magdy M Mahfouz](https://www.ncbi.nlm.nih.gov/pubmed/27741224) 
 [^8]: [Regulatory uncertainty over genome editing](https://www.nature.com/articles/nplants201411)
 [^9]: [The Potential of the Combination of CRISPR-Cas9 and Pluripotent Stem Cells to Provide Human Organs from Chimaeric Pigs](https://www.researchgate.net/publication/277580331_The_Potential_of_the_Combination_of_CRISPRCas9_and_Pluripotent_Stem_Cells_to_Provide_Human_Organs_from_Chimaeric_Pigs)
+[^10]: [Genetically Modifying Mosquitoes to Eliminate Disease](http://discovermagazine.com/2015/may/14-mosquito-modified)
+[^11]: [Could someone please give me an estimate of using CRISPR/Cas9-gRNA technology for knocking out genes from crop species like Maize and Rice?](https://www.researchgate.net/post/Could_someone_please_give_me_an_estimate_of_using_CRISPR_Cas9-gRNA_technology_for_knocking_out_genes_from_crop_species_like_Maize_and_Rice3)
+[^12]: [Genome Editing with CRISPRs, TALENs and ZFNs](https://www.biocompare.com/Editorial-Articles/144186-Genome-Editing-with-CRISPRs-TALENs-and-ZFNs/)

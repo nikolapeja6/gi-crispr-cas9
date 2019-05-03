@@ -16,11 +16,5 @@ TALEN is a more recent method, developed in 2011, and its structure is shown in 
 
 {% include image.html url="http://3.bp.blogspot.com/-xjqLK1H_gQk/VWF21rnxNaI/AAAAAAAAEUM/haSGefrPYmo/s1600/1.jpg" description="Schematic illustration of Transcription Activator-Like Effector Nucleases (TALEN) structure [^7]" %}
 
-
-
-TODO add some simple description of the TALEN method, with a picture. 
-
-TODO Possibly add video, or find at leat one video that could be added in the media library.
-
 [^6]: [New Biotechnological Tools for the Genetic Improvement of Major Woody Fruit Species, by Limera, Cecilia & Sabbadini, Silvia & Sweet, Jeremy & Mezzetti, Bruno. (2017)](https://www.researchgate.net/publication/319124036_New_Biotechnological_Tools_for_the_Genetic_Improvement_of_Major_Woody_Fruit_Species)
 [^7]: [ Lab Series# 6: A short introduction to TALEN](http://varuncnmicro.blogspot.com/2015/05/lab-series-6-short-introduction-to-talen.html)
