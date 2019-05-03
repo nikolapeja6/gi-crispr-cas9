@@ -7,6 +7,7 @@ theme: jekyll-theme-cayman
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 url: https://nikolapeja6.github.io/gi-crispr-cas9/
 author: Nikola Pejic (nikolapeja6)
