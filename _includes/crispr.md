@@ -6,7 +6,9 @@ CRISPR technology is a simple yet powerful tool for editing genomes. It allows r
 
 A global overview or CRISPR with it's key features emphasized (and in everyday language) is in the video below.
 
+<div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1BXYSGepx7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Origin and usage in nature
 
@@ -30,7 +32,9 @@ CRISPR was first demonstrated experimentally by Rodolphe Barrangou and a team of
 
 Until 2017, no one really knew what this process looked like. In a paper published Nov. 10, 2017, in the journal Nature Communications, a team of researchers led by Mikihiro Shibata of Kanazawa University and Hiroshi Nishimasu of the University of Tokyo showed what it looks like when a CRISPR is in action for the very first time. The video which was a supplement of their paper "Real-space and real-time dynamics of CRISPR-Cas9 visualized by high-speed atomic force microscopy" (published in Nature Communications 8, Article number: 1430 (2017)) can be seen below.
 
+<div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/w2_JN1JntlU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Gene editing with CRISPR
 
@@ -44,15 +48,18 @@ In 2012, two pivotal research papers were published in the journals Science and 
 Once the DNA is cut, the cell's natural repair mechanisms kick in and work to introduce mutations or other changes to the genome. Two different processes can occur in order to fix the double-stranded break (DSB): **non-homologous end-joining (NHEJ)** or **homology-directed repair (HDR)**. NHEJ is an imprecise repair process and  involves gluing the two cuts back together. This method tends to introduce errors, as nucleotides are accidentally inserted or deleted, resulting in mutations, which could disrupt a gene. HDR is a precise repair process and is used mainly in editing the DNA sequence. With HDR, the break is fixed by filling in the gap with a sequence of nucleotides. In order to do so, the cell uses a short strand of DNA as a template. Scientists can supply the DNA template of their choosing, thereby writing-in any gene they want, or correcting a mutation.[^3] [^5]
 
 The vide below is an animation of the homology-directed repair (HDR) process.
+<div align="center">
 <iframe src="https://player.vimeo.com/video/106957770" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
+</div>
 
 The non-homologous end-joining (NHEJ) is illustrated in the video below, with a few other approaches:
  - By disabling the cutting functionality and adding an enzyme, CRISPR can introduce specific, targeted mutations on a DNA base without cutting the DNA strand.
  - Some researchers have been working on promoting gene transcription. They disabled the cutting functionality of Cas9, and adding transcriptional activators are added. Other researcher have been working on inactivating transcription.
  - An interesting usage of CRISPR is adding flouresent proteins to it, which then enables us to visualize the 3D architecture of the genome.   
 
+<div align="center">
 <iframe  width="560" height="315" src="https://www.youtube.com/embed/4YKFw2KZA5o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Usage and limitations
 
@@ -65,7 +72,7 @@ In 2013, the first reports of using CRISPR-Cas9 to edit human cells in an experi
 
 CRISPR technology has also been applied in the food and agricultural industries to vaccinate industrial cultures (for yogurt, for example) against viruses. It is also being used in crops to improve yield, drought tolerance and nutritional properties. Another potential application is to create **gene drives**. These are genetic systems, which increase the chances of a particular trait passing on from parent to offspring. Eventually, over the course of generations, the trait spreads through entire populations, according to the Wyss Institute. Gene drives can aid in controlling the spread of diseases such as malaria by enhancing sterility among the disease vector — female Anopheles gambiae mosquitoes — according to the 2016 Nature Biotechnology article. In addition, gene drives could also be used to eradicate invasive species and reverse pesticide and herbicide resistance, according to a 2014 article by Kenneth Oye and colleagues, published in the journal Science. 
 
-{% include image.html url="http://discovermagazine.com/~/media/Images/Issues/2015/may/mosquito7.jpg" description="Left: One copy of the altered gene is inherited, leading to a 50 percent chance of passing it on per generation. Right: By altering both chromosomes, gene drives ensure both copies of the altered gene are inherited, leading to a 100 percent chance of passing it on. [^10]" %}
+{% include image.html url="http://discovermagazine.com/~/media/Images/Issues/2015/may/mosquito7.jpg" description="**Left**: One copy of the altered gene is inherited, leading to a 50 percent chance of passing it on per generation. **Right**: By altering both chromosomes, gene drives ensure both copies of the altered gene are inherited, leading to a 100 percent chance of passing it on. [^10]" %}
 
 ### Drawbacks
 
@@ -81,8 +88,10 @@ Since changes to human embryos and reproductive cells can be passed on to subseq
 
 Other ethical concerns are more nuanced. Should we make changes that could fundamentally affect future generations without having their consent? What if the use of germline editing veers from being a therapeutic tool to an enhancement tool for various human characteristics? 
 
-
+<div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8b_d3RIJJmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 [^3]: [What Is CRISPR?](https://www.livescience.com/58790-crispr-explained.html)
 [^4]: [Pathways for repair of DSBs.jpg](https://www.genecopoeia.com/wp-content/uploads/2014/08/Pathways-for-repair-of-DSBs.jpg)

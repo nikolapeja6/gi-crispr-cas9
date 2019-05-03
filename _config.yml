@@ -1,6 +1,13 @@
 title: CRISPR-Cas9
 description: >
-  A short overview of CRISPR-Cas9 and other gene editing methods,<br /> 
-  created as an assignment for the Computational Genomics (2018/2019) course <br /> 
-  at the School of Electrical Engineering.
+  A short overview of CRISPR-Cas9 and other gene editing methods,
+  created as an assignment for the Computational Genomics (2018/2019) course
+  at the School of Electrical Engineering, University of Belgrade.
 theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-seo-tag
+
+url: https://nikolapeja6.github.io/gi-crispr-cas9/
+author: Nikola Pejic (nikolapeja6)
+google_site_verification: CN-j-woB_xbgwvUp3AuszoVjbjZadkiMuhQXM2rJBYM
