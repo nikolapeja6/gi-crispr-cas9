@@ -9,6 +9,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-url: https://nikolapeja6.github.io/gi-crispr-cas9/
+url: https://nikolapeja6.github.io/gi-crispr-cas9
+baseurl: /gi-crispr-cas9
 author: Nikola Pejic (nikolapeja6)
 google_site_verification: CN-j-woB_xbgwvUp3AuszoVjbjZadkiMuhQXM2rJBYM

@@ -1,5 +1,6 @@
 ---
 layout: default
+image: crispr.jpg
 ---
 
 <div style="text-align: justify; " markdown="1">
